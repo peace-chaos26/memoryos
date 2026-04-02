@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+
+# Secrets — never commit these
+.env
+*.pem
+secrets.json
+
+# Data and models — too large for git
+data/
+*.csv
+*.parquet
+*.pkl
+*.pt
+*.bin
+outputs/
+models/
+
+# Vector DB persistence
+chroma_db/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiment tracking
+mlruns/
+wandb/
